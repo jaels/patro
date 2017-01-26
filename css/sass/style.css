@@ -4,6 +4,19 @@
 .container-fluid {
   width: 80%; }
 
+.nav-tabs {
+  background-color: #B0B0B0;
+  width: 100%; }
+
+a[disabled="disabled"] {
+  pointer-events: none; }
+
+.dropdown {
+  border-right: 1px solid white; }
+
+ul.dropdown-menu {
+  background-color: #D0D0D0; }
+
 .logo-strip {
   background-color: #303030;
   height: 50px; }
@@ -31,7 +44,9 @@
   margin-left: 10%; }
 
 .result_hover {
-  background-color: red;
-  border: 2px solid black; }
+  text-decoration: underline; }
+
+.thumbnail {
+  height: 200px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,41 @@ width: 600px;
   width: 80%;
 }
 
+.nav-tabs {
+    background-color: $light-grey;
+    // height: 100%;
+    width: 100%;
+}
+
+a[disabled="disabled"] {
+    pointer-events: none;
+}
+
+
+// .navbar, .navbar-brand, .navbar-default,
+// .navbar-static-top {
+//     line-height: 10px;
+//     height: 10px;
+//     padding-top: 0;
+// }
+
+
+// .nav {
+//     height: 20px;
+// }
+
+// .dropdown-toggle {
+//   outline: none;
+// }
+
+
+.dropdown {
+    border-right: 1px solid white;
+}
+
+ul.dropdown-menu {
+    background-color: $lightest-grey;
+}
 
 .logo-strip {
     background-color: $darkest-grey;
@@ -41,6 +76,12 @@ width: 600px;
 }
 
 .result_hover {
-    background-color: red;
-    border: 2px solid black;
+    // border-bottom: 2px solid black;
+    text-decoration: underline;
+
+}
+
+
+.thumbnail {
+    height: 200px;
 }
