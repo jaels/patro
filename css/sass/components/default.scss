@@ -1,0 +1,46 @@
+
+
+.dropdown-menu {
+width: 600px;
+}
+
+.container-fluid {
+  width: 80%;
+}
+
+
+.logo-strip {
+    background-color: $darkest-grey;
+    height: 50px;
+}
+
+.logo {
+    position: relative;
+    background-color:$light-grey;
+    height: 30px;
+    width: 130px;
+    margin-top:0.8%;
+    margin-left: 10%;
+}
+
+.rights-strip {
+    background-color: $darkest-grey;
+    height: 50px;
+    bottom: 17px;
+}
+
+.crumbs {
+    height: 90px;
+    background-color:$light-grey;
+    margin-bottom: 0;
+}
+
+.crumb-text {
+    padding-top: 10px;
+    margin-left: 10%;
+}
+
+.result_hover {
+    background-color: red;
+    border: 2px solid black;
+}
