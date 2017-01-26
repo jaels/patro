@@ -1,170 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-      <title>Patronus</title>
-      <meta charset="utf-8">
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+              <title>Patronus</title>
+              <meta charset="utf-8">
 
-      <link rel="stylesheet" href="css/sass/style.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+              <link rel="stylesheet" href="css/sass/style.css">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+          </head>
+          <body>
+                  <div class="container col-sm-12 logo-strip">
+                      <div class="logo">
+                          <p class="logo-text">
+                              LOGO
+                          </p>
+                      </div>
+                      <img class="top-icons" id="user-icon" src="assets/userrrr.png"/>
+                      <p id="john">
+                          John Doe
+                      </p>
 
+                      <img class="top-icons" id="bell-icon" src="assets/white-bell.png"/>
 
-  </head>
-  <body>
-          <div class="container col-sm-12 logo-strip">
-              <div class="logo">
-                  <p class="logo-text">
-                      LOGO
-                  </p>
-              </div>
-              <img class="top-icons" id="user-icon" src="assets/userrrr.png"/>
-              <p id="john">
-                  John Doe
-              </p>
+                      <div id="circle">
+                          60
+                      </div>
+                  </div>
+                <ol class="breadcrumb crumbs">
+                <li class="crumb-a"><a class="crumb-text" classshref="#">Breadcrumb root</a></li>
+                <li><a class="crumb-text"href="#">Breadcrumb node</a></li>
+                <li class="crumb-text" class="active">Bread Crumb</li>
+              </ol>
 
-              <img class="top-icons" id="bell-icon" src="assets/white-bell.png"/>
+        <header class="navbar">
+            <div class="container-fluid">
+                <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                    <ul class="nav navbar-nav nav-tabs">
+                        <li class="dropdown active">
 
-              <div id="circle">
-                <span>    60 </span>
-              </div>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="current" class="menu-font">                    <img class="box-img" src="assets/boxes.png" />
+                                CURRENT MENU</a>
+                            <ul class="dropdown-menu list-inline">
+                                <li class="submenu"><a href="#" class="menu-font">SUB MENUE</a></li>
+                                <li class="submenu" class="menu-font"><a href="#">ANOTHER SUBMENU</a></li>
+                                <li class="submenu" class="menu-font"><a href="#">INACTIVE</a></li>
+                                <li class="disabled submenu" class="menu-font"><a href="#"  disabled="disabled">DISABLED</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menu1" class="menu" class="menu-font">                    <img class="diamond-img" src="assets/diamond1.png" />
+                                MENU 1</a>
+                            <ul class="dropdown-menu list-inline">
+                                <li class="submenu" class="menu-font"><a href="#">SUB MENU</a></li>
+                                <li class="submenu" class="menu-font"><a href="#">ANOTHER SUBMENU</a></li>
+                                <li class="submenu" class="menu-font"><a href="#">INACTIVE</a></li>
+                                <li class="submenu" class="menu-font"><a href="#">DISABLED</a></li>
+                            </ul>
+                        </li>
 
-
-          </div>
-
-        <ol class="breadcrumb crumbs">
-        <li class="crumb-a"><a class="crumb-text" classshref="#">Breadcrumb root</a></li>
-        <li><a class="crumb-text"href="#">Breadcrumb node</a></li>
-        <li class="crumb-text" class="active">Bread Crumb</li>
-      </ol>
-<!-- <div class="container col-sm-10 navs-container"> -->
-
-<header class="navbar">
-    <div class="container-fluid">
-
-        <nav class="navbar navbar-default navbar-static-top" role="navigation">
-
-            <ul class="nav navbar-nav nav-tabs">
-                <li class="dropdown active">
-
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="current" class="menu-font">                    <img class="box-img" src="assets/boxes.png" />
-                        CURRENT MENU</a>
-
-                    <ul class="dropdown-menu list-inline">
-                        <li class="submenu"><a href="#" class="menu-font">SUB MENUE</a></li>
-                        <li class="submenu" class="menu-font"><a href="#">ANOTHER SUBMENU</a></li>
-                        <li class="submenu" class="menu-font"><a href="#">INACTIVE</a></li>
-                        <li class="disabled submenu" class="menu-font"><a href="#"  disabled="disabled">DISABLED</a></li>
+                        <li class="dropdown" class="menu-font"><a href="#"><img class="box-img" src="assets/bug.png" />MENU2</a></li>
+                        <li class="dropdown" class="menu-font"><a href="#"><img class="signal-img" src="assets/signal.png" />MENU3</a></li>
+                        <li class="dropdown" class="menu-font"><a href="#"><img class="cake-img" src="assets/cake.png" />ANOTHER MENU</a></li>
                     </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="menu1" class="menu" class="menu-font">                    <img class="diamond-img" src="assets/diamond1.png" />
-MENU 1</a>
-                    <ul class="dropdown-menu list-inline">
-                        <li class="submenu" class="menu-font"><a href="#">SUB MENU</a></li>
-                        <li class="submenu" class="menu-font"><a href="#">ANOTHER SUBMENU</a></li>
-                        <li class="submenu" class="menu-font"><a href="#">INACTIVE</a></li>
-                        <li class="submenu" class="menu-font"><a href="#">DISABLED</a></li>
-                    </ul>
-                </li>
-
-                <li class="dropdown" class="menu-font"><a href="#"><img class="box-img" src="assets/bug.png" />MENU2</a></li>
-                <li class="dropdown" class="menu-font"><a href="#"><img class="signal-img" src="assets/signal.png" />MENU3</a></li>
-                <li class="dropdown" class="menu-font"><a href="#"><img class="cake-img" src="assets/cake.png" />ANOTHER MENU</a></li>
-
-
-            </ul>
+                </nav>
+        </div>
         </nav>
-
-</div><!-- /.container-fluid -->
-</nav>
-</div>
-
-</header>
-<!-- </div> -->
-<div class="container-fluid">
-
-
-
-
-    <div class="row">
-        <div class = "col-md-5">
-           <div class = "thumbnail">
-               <div class="upper-box-strip">
-                   <img class="box-img" src="assets/box.png" />
-                   <p class="tile">TILE 2X1</p>
-
-               </div>
-           </div>
         </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class = "col-md-5">
+                   <div class = "thumbnail">
+                       <div class="upper-box-strip">
+                           <img class="box-img" src="assets/box.png" />
+                           <p class="tile">TILE 2X1</p>
 
-        <div class = "col-md-2">
-            <div class = "thumbnail">
-                <div class="upper-box-strip">
-                    <img class="box-img" src="assets/box.png" />
-                    <p class="small-tile">TILE 1X1</p>
+                       </div>
+                   </div>
+                </div>
+
+                <div class = "col-md-2">
+                    <div class = "thumbnail">
+                        <div class="upper-box-strip">
+                            <img class="box-img" src="assets/box.png" />
+                            <p class="small-tile">TILE 1X1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-5">
+                    <div class = "thumbnail">
+                        <div class="upper-box-strip">
+                            <img class="box-img" src="assets/box.png" />
+                            <p class="tile">TILE 2X1</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class = "col-md-5">
+                    <div class = "thumbnail">
+                        <div class="upper-box-strip">
+                            <img class="box-img" src="assets/box.png" />
+                            <p class="tile">TILE 2X1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-2">
+                    <div class = "thumbnail">
+                        <div class="upper-box-strip">
+                            <img class="box-img" src="assets/box.png" />
+                            <p class="small-tile">TILE 1X1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-5">
+                    <div class = "thumbnail">
+                        <div class="upper-box-strip">
+                            <img class="box-img" src="assets/box.png" />
+                            <p class="tile">TILE 2X1</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class = "col-md-5">
-            <div class = "thumbnail">
-                <div class="upper-box-strip">
-                    <img class="box-img" src="assets/box.png" />
-                    <p class="tile">TILE 2X1</p>
-                </div>
-            </div>
+
+        <div class="container col-sm-12 rights-strip">
+            <p class="rights-text">
+                © 2017 company name
+            </p>
         </div>
 
-    </div>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 
-    <div class="row">
-        <div class = "col-md-5">
-            <div class = "thumbnail">
-                <div class="upper-box-strip">
-                    <img class="box-img" src="assets/box.png" />
-                    <p class="tile">TILE 2X1</p>
-                </div>
-            </div>
-        </div>
+        <script src="index.js"></script>
 
-        <div class = "col-md-2">
-            <div class = "thumbnail">
-                <div class="upper-box-strip">
-                    <img class="box-img" src="assets/box.png" />
-                    <p class="small-tile">TILE 1X1</p>
-                </div>
-            </div>
-        </div>
-
-        <div class = "col-md-5">
-            <div class = "thumbnail">
-                <div class="upper-box-strip">
-                    <img class="box-img" src="assets/box.png" />
-                    <p class="tile">TILE 2X1</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-<div class="container col-sm-12 rights-strip">
-    <p class="rights-text">
-        © 2017 company name
-    </p>
-</div>
+          </body>
 
-
-
-<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-
-
-<script src="index.js"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-  </body>
-
-</html>
+        </html>

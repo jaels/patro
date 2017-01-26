@@ -1,7 +1,8 @@
 
 
 .dropdown-menu {
-width: 600px;
+    width:600px;
+    margin: auto;
 
 }
 
@@ -11,7 +12,6 @@ width: 600px;
 
 .nav-tabs {
     background-color: $light-grey;
-    // height: 100%;
     width: 100%;
 }
 
@@ -24,40 +24,10 @@ a[disabled="disabled"] {
 
 }
 
-// li {
-//     position: relative;
-// }
-//
-// li:after {
-//   content:"";
-//   background: white;
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-//   height: 80%;
-//   width: 1px;
-// }
-
 
 .navs-container {
     border: 2px solid black;
 }
-
-// .navbar, .navbar-brand, .navbar-default,
-// .navbar-static-top {
-//     line-height: 10px;
-//     height: 10px;
-//     padding-top: 0;
-// }
-
-
-// .nav {
-//     height: 20px;
-// }
-
-// .dropdown-toggle {
-//   outline: none;
-// }
 
 
 
@@ -65,9 +35,6 @@ ul.dropdown-menu {
     background-color: $lightest-grey;
 }
 
-// .dropdown {
-//     border-right: 1px solid white;
-// }
 
 
 .a {
@@ -159,20 +126,15 @@ div.thumbnail {
 
 .tile {
     position: relative;
-    // float: right;
-    // top: 40px;
-    // right: 100px;
-    // padding-top: -20px;
     bottom:25px;
     padding-left: 8%;
 }
 
 .small-tile {
     position: relative;
-    // float: right;
     bottom:25px;
-    padding-left: 20%;
-    // padding-top: 5px;
+    left:40px;
+    // padding-right: 30px;
 }
 
 .rights-text {
@@ -208,9 +170,9 @@ div.thumbnail {
 
 #bell-icon {
     position: relative;
-    float:right;
-    right: 80px;
-    bottom: 25px;
+    // float:right;
+    left: 83%;
+    bottom: 95px;
 }
 
 #user-icon {
@@ -224,9 +186,8 @@ div.thumbnail {
 #john {
     position:relative;
     color: white;
-    float: right;
-    margin-right: 70px;
-    bottom:25px;
+    left: 90%;
+    bottom:65px;
 }
 
 #circle {
@@ -237,9 +198,8 @@ div.thumbnail {
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-    float:right;
-    right: 35px;
-    bottom:34px;
+    left: 84.5%;
+    bottom:125px;
     color: white;
     text-align: center;
 }

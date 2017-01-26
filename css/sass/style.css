@@ -1,5 +1,6 @@
 .dropdown-menu {
-  width: 600px; }
+  width: 600px;
+  margin: auto; }
 
 .container-fluid {
   width: 80%; }
@@ -18,7 +19,7 @@ a[disabled="disabled"] {
   border: 2px solid black; }
 
 ul.dropdown-menu {
-  background-color: #D0D0D0; }
+  background-color: #F0F0F0; }
 
 .a {
   position: relative; }
@@ -38,7 +39,7 @@ a:after {
 
 .logo {
   position: relative;
-  background-color: #D0D0D0;
+  background-color: #F0F0F0;
   height: 30px;
   width: 130px;
   margin-top: 0.8%;
@@ -98,7 +99,7 @@ div.thumbnail {
 .small-tile {
   position: relative;
   bottom: 25px;
-  padding-left: 20%; }
+  left: 40px; }
 
 .rights-text {
   color: white;
@@ -126,9 +127,8 @@ div.thumbnail {
 
 #bell-icon {
   position: relative;
-  float: right;
-  right: 80px;
-  bottom: 25px; }
+  left: 83%;
+  bottom: 95px; }
 
 #user-icon {
   position: relative;
@@ -140,9 +140,8 @@ div.thumbnail {
 #john {
   position: relative;
   color: white;
-  float: right;
-  margin-right: 70px;
-  bottom: 25px; }
+  left: 90%;
+  bottom: 65px; }
 
 #circle {
   position: relative;
@@ -152,9 +151,8 @@ div.thumbnail {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  float: right;
-  right: 35px;
-  bottom: 34px;
+  left: 84.5%;
+  bottom: 125px;
   color: white;
   text-align: center; }
 
